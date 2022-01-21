@@ -21,20 +21,12 @@ export default {
       { href: 'https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap', rel:'stylesheet'},
       {href: 'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap', rel:'stylesheet'},
       {href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css', rel:'stylesheet'},
-      {href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css',  rel:'stylesheet'}
+      {href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', rel:'stylesheet'}
       
     ],
     script:[
       {
-        src:"/js/bootstrap.min.js",
-        body:true
-      },
-      {
-        src:"/js/jquery.js",
-        body:true
-      },
-      {
-        src:"/js/index.js",
+        src:"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
         body:true
       },
       {
@@ -47,10 +39,6 @@ export default {
     ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    "~assets/css/bootstrap.min.css",
-
-  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -72,8 +60,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-
-    "build": "nuxt generate --output dist",
   },
 
   target: 'static'
