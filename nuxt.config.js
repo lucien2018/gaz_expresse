@@ -24,7 +24,7 @@ export default {
     ],
     script:[
       {
-        src:"/js/bootstrap.js",
+        src:"/js/bootstrap.min.js",
         body:true
       },
       {
@@ -44,11 +44,10 @@ export default {
       }
     ]
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~assets/css/bootstrap.css",
-    "~assets/css/bootstrap-icons.css"
+    "~assets/css/bootstrap.min.css",
+    //"~assets/css/bootstrap-icons.css"
 
   ],
 
