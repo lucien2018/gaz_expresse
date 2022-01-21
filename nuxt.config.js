@@ -20,7 +20,9 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { href: 'https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap', rel:'stylesheet'},
       {href: 'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap', rel:'stylesheet'},
-      {href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css', rel:'stylesheet'}
+      {href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css', rel:'stylesheet'},
+      {href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css',  rel:'stylesheet'}
+      
     ],
     script:[
       {
@@ -47,7 +49,6 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "~assets/css/bootstrap.min.css",
-    "~assets/css/bootstrap-icons.css"
 
   ],
 
