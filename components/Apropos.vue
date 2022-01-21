@@ -1,7 +1,7 @@
 <template>
 <div class="bloc1">
  <div class="container">
- <h1 class="text-center gtitre">A propos</h1>
+ <h1 class="text-center gtitre" id="apropos">A propos</h1>
  <div class="row mt-4">
     <div class="col-sm-7 mt-3">
     <img class="inq mx-auto" src="/image/inq.png"/>

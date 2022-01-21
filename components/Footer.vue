@@ -3,7 +3,7 @@
 <img src="/image/footer.png" class="foot"/>
     <div class="container-fluid bac">
         <div class="container ">
-          <h1 class="text-center pt-5 mb-3">Contact-Us :)</h1>
+          <h1 class="text-center pt-5 mb-3" id="contact">Contact-Us :)</h1>
             <div class="haut mt-4">
               <form class="row g-2">
                 <div class="col-sm-6">

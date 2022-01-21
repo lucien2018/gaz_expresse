@@ -21,13 +21,17 @@ export default {
       { href: 'https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap', rel:'stylesheet'},
       {href: 'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap', rel:'stylesheet'},
       {href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css', rel:'stylesheet'},
-      {href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', rel:'stylesheet'}
+     /* {href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', rel:'stylesheet'}*/
       
     ],
     script:[
       {
-        src:"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
-        body:true
+        src:"js/bootstrap.js",
+        body: true
+      },
+      {
+        src:"js/jquery.js",
+        body: true
       },
       {
         src:"https://polyfill.io/v3/polyfill.min.js?features=default"
@@ -39,6 +43,10 @@ export default {
     ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
+  css :[
+    '~assets/css/bootstrap.css', 
+    '~assets/css/bootstrap-icons.css', 
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

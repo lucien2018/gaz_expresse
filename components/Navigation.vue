@@ -12,16 +12,16 @@
                 <a class="nav-link" aria-current="page" href="#">Accueil</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">A propos</a>
+                <a class="nav-link" href="#apropos">A propos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Servives</a>
+                <a class="nav-link" href="#service">Servives</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Faire une Démande</a>
+                <a class="nav-link" href="#demande">Faire une Démande</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -41,7 +41,7 @@
              <h2 class="text-center title">Gaz express</h2>
               <p class="text">votre service de livraison de bouteille de gaz rapide fiable partout à Abidjan</p>
               <div class="d-grid gap-2 col-6 mx-auto mt-3">
-                <button class="btn btn-outline-success" type="button">Follow Us !:)</button>
+                <a class="btn btn-outline-success" type="button" href="#apropos">Follow Us !:)</a>
               </div>
             </div>
          </div>
